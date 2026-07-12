@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+dist/
+coverage/
+
+# Local Environment Variables
+.env
+.env.test
+
+# OS Files
+.DS_Store
+Thumbs.db
