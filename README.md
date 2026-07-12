@@ -10,6 +10,14 @@ Velocity Motors enables users to browse, search, and purchase vehicles. It featu
 
 ---
 
+## Live Deployments
+
+The application is deployed and live at the following links:
+- **Frontend Portal (Vercel)**: [https://velocity-motors-tau.vercel.app/](https://velocity-motors-tau.vercel.app/)
+- **Backend REST API (Render)**: [https://velocitymotors-api.onrender.com/](https://velocitymotors-api.onrender.com/)
+
+---
+
 ## Tech Stack
 
 ### Backend
