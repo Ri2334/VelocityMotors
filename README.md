@@ -199,37 +199,21 @@ Here are screenshots demonstrating the application in action:
 ### 5. Edit Vehicle Specification Sheet Form
 ![Edit Vehicle Form](screenshots/edit_vehicle.png)
 
----
-
-## Deployment Guide
-
-### Backend (Render)
-1. Set up a Web Service on Render and point to your GitHub repo.
-2. Select root directory as `backend`.
-3. Build Command: `npm install`
-4. Start Command: `npm start`
-5. Configure environment values (`MONGODB_URI`, `PORT`, `JWT_SECRET`) in Render Environment panels.
-
-### Frontend (Vercel)
-1. Create a project on Vercel importing the repo.
-2. Set root directory to `frontend`.
-3. Set build configuration to Vite Defaults (`npm run build`, output folder `dist`).
-4. Vite dev proxy handles local proxy, but for production endpoints build Axios instances pointing directly to the deployed Render backend URL.
-
----
-
 ## My AI Usage
 
 This project was built utilizing AI assistance alongside local development and manual verification.
 
 ### AI Collaborator Acknowledgment
 - **ChatGPT**: Collaborated as the primary AI coding assistant throughout the engineering process.
+- **Antigravity** - Was used for repetitive tasks
 
 ### How AI Assisted Development
 - **Frontend Development**: ChatGPT was used to build the core layouts, form handlers, state context providers, and view page components for the single-page application.
 - **Backend Syntax**: Assisted in writing clean JavaScript/Express API syntaxes and setting up Mongoose schema validation structures.
-- **Repetitive CRUD Patterns**: ChatGPT generated templates for repetitive controller queries, route paths, and validators, which were then custom-adapted and robustly checked.
+- **Repetitive CRUD Patterns**: ChatGPT generated templates and Antigravity for repetitive controller queries, route paths, and validators, which were then custom-adapted and robustly checked.
 - **Visual Design & Polish**: Guided the selection of custom dark-mode gradients, glassmorphic cards, and hover micro-animations to make the visuals better and more appealing.
+- **Testing** - Antigravity was used for the test cases and testing the endpoints , manual check was done though
+- **Bug fixing** - Antigravity and chatgpt were used to traverse to the point where error was caused , understood the error and fixed with ai assistance
 
 ### Reflections
-Using ChatGPT expedited frontend page assembly and simplified backend syntax writing. Delegating repetitive patterns and UI layout tokens allowed us to concentrate on securing route gates and executing rigorous test-driven validation cycles.
+Using ChatGPT and Antigravity expedited frontend page assembly and simplified backend syntax writing. Delegating repetitive patterns and UI layout tokens allowed us to concentrate on securing route gates and executing rigorous test-driven validation cycles.
